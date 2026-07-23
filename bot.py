@@ -28,6 +28,6 @@ bot = telebot.TeleBot(TOKEN)
 def send_welcome(message):
     bot.reply_to(message, "សួស្ដី! Bot កំពុងដំណើរការលើ Render ជោគជ័យហើយ!")
 
-if _name_ == '__main__':
+if __name__ == '__main__':
     keep_alive()  # បើក Web Server ឱ្យ Render ស្គាល់ Port
     bot.infinity_polling()  # រត់ Bot
