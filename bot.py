@@ -17,7 +17,7 @@ def keep_alive():
     t = threading.Thread(target=run_web)
     t.start()
 
-TOKEN = '8618381887:AAEGtZLBO581ORCp4hdNEPwWd5BfiuH6hTU'
+TOKEN = '8618381807:AAGEfDmpsdWgJSYRJpzqmPGqyiufQveDQFc'
 bot = telebot.TeleBot(TOKEN)
 
 ALLOWED_USERS = [2043946113] 
