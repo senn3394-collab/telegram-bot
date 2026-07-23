@@ -20,7 +20,7 @@ def keep_alive():
 TOKEN = '8618381807:AAGEfDmpsdWgJSYRJpzqmPGqyiufQveDQFc'
 bot = telebot.TeleBot(TOKEN)
 
-ALLOWED_USERS = [2043946113] 
+ALLOWED_USERS = [2043924613] 
 
 qa_database = {
     'q1': "🔹 សំណួរ: ណែនាំខ្លួនប្រាប់ពីប្រវត្តិរូប និងបទពិសោធន៍របស់អ្នក?\n\n🔸 ចម្លើយ: និយាយពីឈ្មោះ ជំនាញសិក្សា បទពិសោធន៍ការងារ ឬ Project និងចំណង់ចំណូលចិត្តលើផ្នែកបច្ចេកវិទ្យា។",
