@@ -67,6 +67,6 @@ def handle_q_commands(message):
     else:
         bot.reply_to(message, "❌ មិនមានពាក្យបញ្ជានេះទេ។ សូមប្រើ /q1 ដល់ /q10។")
 
-if name == '__main__':
+if __name__ == '__main__':
     keep_alive()  
     bot.infinity_polling()
